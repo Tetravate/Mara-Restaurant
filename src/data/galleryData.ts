@@ -1,0 +1,68 @@
+import { GalleryItem } from '../types';
+
+export const galleryItems: GalleryItem[] = [
+  {
+    id: 'gal-1',
+    title: 'The Dining Room at Dusk',
+    category: 'atmosphere',
+    imageUrl: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80',
+    altText: 'Warmly lit dining room with brass lanterns, teak tables, and floor-to-ceiling glass at MĀRA',
+    aspectRatio: 'landscape',
+  },
+  {
+    id: 'gal-2',
+    title: 'Charred Paneer Plating',
+    category: 'food',
+    imageUrl: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=800&q=80',
+    altText: 'Artfully plated smoked cottage cheese with roasted tomato and cold-pressed coriander oil',
+    aspectRatio: 'portrait',
+  },
+  {
+    id: 'gal-3',
+    title: 'Brass Pot Cooking & Open Hearth',
+    category: 'kitchen',
+    imageUrl: 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1000&q=80',
+    altText: 'Chef finishing dishes over open flame in a copper and brass equipped kitchen',
+    aspectRatio: 'landscape',
+  },
+  {
+    id: 'gal-4',
+    title: 'Private Courtyard Dining',
+    category: 'atmosphere',
+    imageUrl: 'https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1000&q=80',
+    altText: 'Intimate dining setting surrounded by terracotta pots and lush tropical foliage',
+    aspectRatio: 'portrait',
+  },
+  {
+    id: 'gal-5',
+    title: 'Seeraga Samba Dum Biryani',
+    category: 'food',
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1000&q=80',
+    altText: 'Miniature fragrant rice grains layered with slow-braised spices in a copper handi',
+    aspectRatio: 'landscape',
+  },
+  {
+    id: 'gal-6',
+    title: 'Artisanal Spice Grinding',
+    category: 'details',
+    imageUrl: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=800&q=80',
+    altText: 'Whole stone-ground cardamom pods, star anise, and peppercorns arranged on dark stone',
+    aspectRatio: 'square',
+  },
+  {
+    id: 'gal-7',
+    title: 'Saffron & Pistachio Shrikhand Tart',
+    category: 'food',
+    imageUrl: 'https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=800&q=80',
+    altText: 'Delicate pastry tart crowned with whipped saffron yogurt and chopped green pistachios',
+    aspectRatio: 'square',
+  },
+  {
+    id: 'gal-8',
+    title: 'Table Details & Handcrafted Ceramics',
+    category: 'details',
+    imageUrl: 'https://images.unsplash.com/photo-1615719413546-198b25453f85?auto=format&fit=crop&w=800&q=80',
+    altText: 'Custom terracotta and stone tableware set on natural linen table runners',
+    aspectRatio: 'portrait',
+  },
+];
